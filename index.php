@@ -15,7 +15,7 @@
 <div class="thumbspace popup popup-cart maximum" id="barcode" style="opacity: 1;">
 <form id="frmCart">
 	<div class="cart-title">
-		<strong class="thumbhead"><a href="#" class="balloonarticon-cart"></a> หน้าขายด้วยบาร์โค้ด</strong>
+		<strong class="thumbhead"><a href="#" class="balloonarticon-cart"></a> หน้าตัดสต็อคสินค้าที่เสียหาย</strong>
 		<ul class="actionlist actionlist-shortcut">
 			<!-- <li><a href="" class="closebtn balloonarticon-close"></a></li> -->
 			<!-- <li><a href="" class="balloonarticon2-minimal"></a></li> -->
@@ -27,6 +27,30 @@
 	<div class="col-left">
 
 		<div style="width:99%; margin:0 auto; margin-bottom:2px">
+			<div class="title_bar filter" id="">
+				<strong class="title">วันที่</strong> 
+				<div class="inputwrapper">
+					<input type="text" name="" id="" class="">
+				</div>
+				<strong class="title">เลขที่บิล</strong> 
+				<div class="inputwrapper">
+					<select name="" id="">
+						<option value=""></option>
+					</select>
+				</div>
+				<strong class="title">รหัสวัสดุ</strong> 
+				<div class="inputwrapper">
+					<select name="" id="">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+			<div class="rightwrapper">
+				<input type="submit" value="Submit" class="btnsubmit" id="btnsubmit">
+			</div>
+		</div>
+<!-- 
+		<div style="width:99%; margin:0 auto; margin-bottom:2px">
 			<div class="title_bar" id="barcodeinputwrapper">
 				<strong class="title">บาร์โค้ด</strong> 
 				<div class="inputwrapper">
@@ -37,7 +61,7 @@
 				<input type="submit" value="Submit" class="btnsubmit" id="btnsubmit">
 			</div>
 		</div>
-
+ -->
 
 		<div class="title_bar" id="cart_item_title">
 			รายการสินค้า

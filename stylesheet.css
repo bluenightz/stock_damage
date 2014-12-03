@@ -620,4 +620,32 @@ li.ui-menu-item {
 	display:none;
 }
 
+.filter .title {
+    float:left;
+    width:10%;
+}
+.filter .inputwrapper{
+    width:22.5%;
+    float:left;
+}
+.filter .inputwrapper input[type='text'],
+.filter .inputwrapper select{
+    width:100%;
+    height:20px;
+    margin-bottom:5px;
+}
+#barcode .title_bar.filter{
+    width:80%;
+    margin:0;
+    float:left;
+    height:auto;
+}
+span.gas {
+    display:block;
+    border:1px solid #999;
+    border-radius:4px;
+    padding:5px;
+    margin:5px;
+    white-space:normal;
+    box-shadow:2px 2px 4px rgba(0,0,0,0.2);
 }

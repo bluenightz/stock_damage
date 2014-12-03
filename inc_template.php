@@ -46,9 +46,9 @@
 				</td>
 				<td class="col5"><span class="gas">With Hellium</span></td>
 				<td class="col4"><span class="price">180</span></td>
-				<td class="col5"><span class="quantity">1</span></td>
+				<td class="col5"><span class="quantity">0</span></td>
 				
-				<td class="col5"><span class="matallprice">180</span></td>
+				<td class="col5"><span class="matallprice">0</span></td>
 				<td class="col6"><div class="btnBC clickable btnBC-up"></div></td>
 				<td class="col7"><div class="btnBC clickable btnBC-down"></div></td>
 			</tr>
