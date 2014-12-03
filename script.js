@@ -311,6 +311,8 @@ $(function(){
         var _this = this,
             _set = [];
 
+
+
         _this.isExist = function( _code ){
             for( var i = 0 ; i < _set.length ; ++i ){
                 var _balloontemp = _set[i];
@@ -357,6 +359,8 @@ $(function(){
 				$('.btnBC.clickable.btnBC-plus:first()').trigger('click');
 			}
 		}
+
+
         _this.loadballoon = function( _id ){
             var result = _this.isExist( _id );
             if( result.isEdit == false ){
@@ -382,6 +386,20 @@ $(function(){
                 });
             }
 
+        }
+
+
+
+
+        _this.makeblankballoon = function(){
+            var data = $(".balloonitem")[0];
+            var markup = parsehtmltoballoon(data);
+            markup.find(".runnumber").text( _set.length );
+            spaceforcontent.prepend(markup);
+
+            $(markup).css("opacity", 0).animate({"opacity": 1});
+
+            reindex();
         }
 
 
@@ -527,6 +545,8 @@ $(function(){
 
 
    var _balloonset = new balloonset(); // เก็บ object balloon
+
+   _balloonset.makeblankballoon();
 
    $.balloonsetGlobal = _balloonset;
    /** Function : use for create html markup 

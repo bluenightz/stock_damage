@@ -1,4 +1,26 @@
 <tr class="balloonitem">
+	<td class="leftcolumn">
+		<table class="basic-barcodetable">
+			<tr class="rowhead">
+				<td>รายการสินค้า</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="img">
+						<strong class="title"><span class="runnumber">1</span>. AA00001F010</strong>
+						<img src="#" alt=""> <!-- ไม่ต้องใส่รูปเพราะซ่อนไว้ -->
+					</div>
+				</td>
+			</tr>
+			<tr style="display:none;">
+				<td>
+					<div class="balloonprice">
+						<div class="balloonprice-title">ราคาบอลลูน : </div><div class="balloonprice-price">&nbsp;</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</td>
 	<td>
 		<table class="basic-barcodetable matlist" >
 			<tr class="rowhead">
